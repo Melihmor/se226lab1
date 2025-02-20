@@ -1,0 +1,36 @@
+print("What is your name?\n ")
+name=input()
+print("Hello "+ name+"\n")
+print("What is your Student ID?\n ")
+number=input()
+print(number+"\n")
+print("Your ID is "+number )
+
+
+
+print("Please give me two numbers")
+var1=int(input())
+var2=int(input())
+sum=var1+var2
+diff=var2-var1
+prod=var1*var2
+print(sum,diff,prod)
+
+
+print("Please let me know your name")
+name=input()
+print("Please enter your lab grade")
+lab=int(input())
+print("Please enter your midterm grade")
+midterm=int(input())
+print("Please enter your final grade")
+final=int(input())
+print("Name: " , name)
+print("Lab: ", lab)
+print("Midterm: ", midterm)
+print("Final: ", final)
+lastscore=(lab/4)+ (midterm*7/20) + (final*2/10)
+print("Last score: ",lastscore)
+
+print(" *\n","**\n","***\n","**\n","*")
+
